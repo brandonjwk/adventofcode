@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/Users/bwakefield/workspace/aoc-2022')
+sys.path.insert(0, '.')
 from util.read_input import read_input
 
 # input = read_input("day4/sample")
