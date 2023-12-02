@@ -13,6 +13,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Download your cookie session data and save it to a file called `.session`. The session cookie can be found by looking at the request headers (F12 -> network tab) on the advent of code website.
+
 Create the day's folder, download input data, and setup solve script
 ```
 ./get_input.sh
