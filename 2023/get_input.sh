@@ -4,6 +4,9 @@
 
 YEAR=$(date +%Y)
 DAY=$(echo $(date +%d) | sed 's/^0*//')
+if [[ -n $1 ]]; then
+    DAY=$1
+fi
 
 SESSION=$(cat .session)
 
